@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tema2, Macari Cristian</title>
+<style>
+  * {
+  box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   border: 2px solid #4CAF50;
+        line-height: 80%;
+       
+        margin: 5% 25% 10% 25% ;
+}
+div.header{
+       border: 2px solid #4CAF50;
+        line-height: 80%;
+       
+}
+
+div.header h4 {
+  text-align: center;
+}
+div.header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:  120px;
+}
+.textMaca{
+  font-size: 30px;
+}
+.summary, .CaEd, .RefSk, .proj{
+ 
+ line-height: 120%;
+  padding:0 20px;
+
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  font-size: 12px;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ab{
+  list-style-type:none;
+  text-align: left;
+}
+.project{
+  padding: 10px;
+  font-size: 13px;
+}
+
+[class*="column"] {
+  float: left;
+  padding: 15px;
+}
+@media only screen and (max-width: 1200px) {
+  .column{
+    width:100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+    <img src="./avatar.png" alt="avatar"><br>
+    <h4 class="textMaca">Macari Cristian</h4><h4>Web developer</h4>
+</div>
+
+
+<section class="summary"> 
+<div class="row">
+  <h2>Summary</h2>
+  <p class ="column">
+    I am passionate anout Coputer Science, I'm looking to pursing a career in Software Development.
+    I look forward to being part of a team where I can develop my programming skills and more. I think that any project is a good source of knowledge and only in this way can we develop professionally.
+  </p>
+   <ul class ="column ab"> 
+    <li>Address: Alba-Iulia</li>
+    <li>Phone: 0729580653</li>
+    <li> Email: cristian.macari.info@gmail.com</li>
+  </ul>
+</div>
+<hr>
+</section>
+
+<section class="CaEd">
+<div class="row">
+  <div class="column">
+  <h2>Career</h2>
+  
+  <i>Date start - Date end</i> <strong>&nbsp;&nbsp;Job Title</strong><br>
+  <p>Here is small description</p>
+</div>
+
+<div class="column">
+  <h2>Education</h2>
+
+  <p>
+    Here is about my education..Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.
+  </p>
+</div>
+</div>
+
+</section>
+
+
+<section class ="RefSk"> 
+  <div class="row">
+    <div class="column">
+      <h2>References</h2>
+        <i>Date start - Date end</i> <strong>&nbsp;&nbsp;Job Title</strong><br>
+        <p>Here is small description</p>
+    </div>
+    <div class="column">
+      <h2>Skills</h2>
+        <p>
+          Here is about my education..Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.
+        </p>
+    </div>
+</div>
+<hr>
+</section>
+<section class ="proj">
+  <h2>
+    Projects
+  </h2>
+
+  <p class = "project">
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+</section>
+</body>
+
+</html>
