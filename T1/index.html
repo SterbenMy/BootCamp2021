@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tema1, Macari Cristian, Form</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      	  integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous">	
+    </script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous">
+    </script>
+    <style >
+    	body{
+    	margin: 5% 25% 10% 25% ;}
+    </style>
+</head>
+
+<body>
+	<form action="mailto:v.istrati@developmentaid.org" method="post" enctype=”multipart/form-data” name=”EmailForm”>
+ <div class="form-group">
+    <label>First Name:</label>
+    <input type="text" id="name" name="name">
+  </div>
+  <div class="form-group">
+    <label >Last Name:</label>
+    <input type="text" id="surname" name="surname">
+  </div>
+  <div class="form-group">
+    <label >Address:</label>
+    <textarea type="text" id="address" name="address"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="city">City:</label>
+    <select id="city" name="city">
+    	<option value="chisinau">Chisinau</option>
+    	<option value="balti">Balti</option>
+    	<option value="orhei">Orhei</option>
+    </select>
+  </div>
+  <div class="form-group">
+  	<label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+  </div>
+  <div class="form-group">
+  	<label for="gender">Gender:</label>
+  	<input type="radio" id="male" name="gender" value="male">
+  	<label for="male">Male</label>
+  	<label for="">or</label>
+  	<input type="radio" id="female" name="gender" value="female">
+  	<label for="male">Female</label>
+  </div>
+  <div class="form-group">
+  	<label for="smoke">Do you smoke ?</label>
+  	<input type="checkbox" id="smoke" name="smoke" value="yes">
+  	<label for="smoke">Yes</label>
+  </div>
+ 
+  <div class="form-group"> 
+  	<label for="cups">  How many cups of coffe do you drink a day?</label>
+  	<br>
+  
+  	<input type="radio" id="zerotwo" name="cups" value="0-2">
+  	<label for="cups1">0 to 2 Cup(s)</label>
+  	
+  	<input type="radio" id="twofour" name="cups" value="2-4">
+  	<label for="cups2">2 to 4 Cups</label>
+ 	<br>
+  	<input type="radio" id="foureight" name="cups" value="4-8">
+  	<label for="cups3">4 to 8 Cups</label>
+  	
+  	<input type="radio" id="eight" name="cups" value="8-16">
+  	<label for="cups4">8 to 16 Cups</label>	
+  </div>
+ <div class="form-group">
+ 	<label for="computer"> Do you own a personal computer? </label>
+ 	<select id="computer" name="computer">
+ 		<option value="yes">Yes</option>
+ 		<option value="no">No</option>
+ 	</select>
+ </div>
+ <div class="form-group">
+ 	<label for="timeHtml"> How long would it take to make a HTML form? </label><br>
+ 	<textarea id="time" name="timeHtml"></textarea>
+ </div>
+  <div class="form-group">
+    <label for="comment">Comments:</label><br>
+    <textarea id="comm" name="comment"></textarea>
+  </div>
+<div class="form-group">
+	<button type="reset">Reset Form</button>
+	<button type="submit">Send Survey</button>
+</p>
+ </form>
+</body>
+
+</html>
